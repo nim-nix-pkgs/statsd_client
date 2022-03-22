@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-statsd_client-master.flake = false;
+  inputs.src-statsd_client-master.ref   = "refs/heads/master";
   inputs.src-statsd_client-master.owner = "FedericoCeratto";
-  inputs.src-statsd_client-master.ref   = "master";
   inputs.src-statsd_client-master.repo  = "nim-statsd-client";
   inputs.src-statsd_client-master.type  = "github";
   
